@@ -1,0 +1,205 @@
+/*!
+ * Template Name/Project Name: 
+ * Developer Name: Rakib all
+ * Conatct: rakiball@gmail.com
+ * Visit: https://abc.info
+ */
+/* common-code start */
+:root{
+    --brand-color: #65687d;
+    --standard-color: #87d37c;
+    --white-color: white;
+    --pragraph-color: #65687d;
+    --big-footer-color: #3a3e64;
+    --footer-color: #313454;
+}
+/* common-code end */
+/* header part start */
+header{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)) ,url(../img/banner.jpg);
+}
+.navbar-brand h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--brand-color);
+    transition: var(--standard-color);
+    cursor: pointer;
+}
+.navbar-brand h3:hover{
+    color: var(--standard-color);
+}
+.navbar-brand h3 span{
+    text-transform: uppercase;
+    font-weight: 300; 
+    color: var(--white-color);
+}
+.navbar .nav-link{
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .5s all;
+    cursor: pointer;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--standard-color);
+}
+.nav-link:focus, .nav-link:hover {
+color: var(--standard-color); 
+}
+div.bottom{
+    border-bottom: 2px solid;
+    color: var(--white-color);
+    padding-bottom: 20px;
+}
+/* banner-part start*/
+div.banner{
+    color: var(--white-color);
+    padding: 140px 0px 120px 0px;
+}
+.button-1st .btn{
+    border-radius: 0px;
+}
+.button-1st .btn a{
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 5px 15px;
+}
+/* banner-part end*/
+/* icon-area start */
+.icon-area-header h3{
+    font-size: 24px;
+    font-weight: 600;
+    transition: .5s all;
+    cursor: pointer;
+}
+.icon-area-header h3:hover{
+    color: var(--standard-color);
+}
+.icon-area p{
+    text-align: justify;
+    padding: 0px 16px;
+    color: #65687d;;
+}
+/* icon-area end */
+/* image-sectiopxn start */
+.image-area .row img{
+    border: 1px solid;
+    color: var(--white-color);
+    width: 100%;
+    display: inline-block;
+}
+.image-area .row{
+    --bs-gutter-x: 0px;
+}
+.image-content{
+    position: relative;
+    overflow: hidden;
+}
+.image-content-overlay{
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(230, 15, 15, 0.50);
+    transition: .5s all;
+    cursor: pointer;
+}
+.image-content:hover .image-content-overlay{
+    top: 0px;
+} 
+.image-content-overlay h3{
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+    transform: translateY(100px);
+    display: inline-block;
+    text-transform: uppercase;
+  }
+.image-content-overlay p{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    transform: translateY(100px);
+  }
+/* image-section start*/
+.card{
+    border-radius: 0px;
+}
+.card p{
+    text-align: justify;
+}
+.card-img, .card-img-top {
+    border-radius: 0px;
+  }
+.card-body a{
+    color: var(--brand-color);
+    transition: .5s all;
+    cursor: pointer;
+  }
+  .card-body a:hover{
+    color: var(--standard-color);
+  }
+/* image-section end*/
+/* main section start */
+.main-area .row img{
+    border: 2px solid;
+    color: var(--white-color);
+    width: 100%;
+    display: inline-block;
+}
+.main-area .row{
+    --bs-gutter-x: 0px;
+}
+/* carousel satr */
+.main-area .row img {
+    border: none;
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 2rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+  }
+  .carousel-indicators [data-bs-target] {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+  }
+/* carousal end */
+/* main section end*/
+/* dawonload-section start */
+.dawonload-area-contant button a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+.dawonload-area-contant button{
+    border-radius: 0px;
+}
+/* dawonload-section end */
+/* big-footer start */
+.big-footer-area{
+    background-color: var(--big-footer-color);
+    color: var(--white-color);
+}
+.big-footer-area-content a{
+ color: var(--white-color);
+ transition: .5s all;
+ cursor: pointer;
+}
+.big-footer-area-content a:hover{
+    color: var(--standard-color);
+}
+/* big-footer end */
+/* footer section  start */
+footer{
+    background-color: var(--footer-color);
+    color: var(--white-color),
+}
+.footer-area-content{
+    color: var(--white-color);
+}
+/* footer section  end */

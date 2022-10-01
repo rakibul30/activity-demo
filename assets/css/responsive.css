@@ -1,0 +1,122 @@
+@media (min-width: 0px) and (max-width: 575px){
+    /* header start */
+    .navbar .nav-link{
+        background: rgba(0,0,0,.8);
+        border: 1px solid white;
+        padding-right: 10px;
+        display: inline-block;
+        min-width: 150px;
+    }
+    .navbar{
+        max-height: 80px;
+        position: relative;
+        z-index: 1;
+     }
+     div.bottom{
+        border-bottom: none;
+    }
+    /* header end */
+    /* banner part start */
+    div.banner{
+        color: var(--white-color);
+        padding: 60px 0px 40px 0px;
+    }
+    .carousel-item h2{
+        font-size: 23px;
+        font-weight: 400;
+    }
+    .button-1st .btn a{
+        padding: 0px 0px;
+    }
+    /* banner part end */
+    /* carousel start */
+    .carousel{
+        padding: 10px 0px 0px 0px;
+    }
+    .carousel-caption {
+        bottom: 2rem;
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    .fst-italic{
+        margin-bottom: auto;
+    }
+      /*carousel end  */
+    .big-footer-area-content{
+        padding-bottom: 15px;
+    } 
+}
+@media (min-width: 576px) and (max-width: 767px){
+    /* header start */
+    .navbar .nav-link{
+        background: rgba(0,0,0,.8);
+        border: 1px solid white;
+        padding-right: 10px;
+        display: inline-block;
+        min-width: 150px;
+    }
+    .navbar{
+        max-height: 80px;
+        position: relative;
+        z-index: 1;
+     }
+     div.bottom{
+        border-bottom: none;
+    }
+    /* header end */
+    /* banner part start */
+    div.banner{
+        color: var(--white-color);
+        padding: 80px 0px 60px 0px;
+    }
+    .carousel-item h2{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .carousel-caption{
+        bottom: 6rem;
+        padding-top: 0rem;
+        padding-bottom: 1.25rem;
+      }
+    .button-1st .btn a{
+        padding: 0px 0px;
+    }
+    /* banner part end */
+}
+@media (min-width: 768px) and (max-width: 991px){
+    /* header start */
+    .navbar .nav-link{
+        background: rgba(0,0,0,.8);
+        border: 1px solid white;
+        padding-right: 10px;
+        display: inline-block;
+        min-width: 150px;
+    }
+    .navbar{
+        max-height: 80px;
+        position: relative;
+        z-index: 1;
+     }
+     div.bottom{
+        border-bottom: none;
+    }
+    /* header end */
+    /* banner part start */
+    div.banner{
+        color: var(--white-color);
+        padding: 100px 0px 80px 0px;
+    }
+    .carousel-item{
+        font-size: 23px;
+        font-weight: 400;
+    }
+    .button-1st .btn a{
+        padding: 0px 0px;
+    }
+    .carousel-caption{
+        bottom: 9rem;
+        padding-top: 0rem;
+        padding-bottom: 1.25rem;
+      }
+    /* banner part end */
+}
